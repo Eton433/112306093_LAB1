@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<table border="1">
+	<div align="center">
+		<tr>
+			<th colspan="3">About -- 112306093</th>
+		</tr>
+		<tr>
+			<div align="center">
+			<td rowspan="3"><img src="./student.jpg" width="200" height="175" alt="My photo"><br><center>personal photo</td>
+			</div>
+			<td colspan="2"><label for="name">Name:</label><input id="name" type="text"><br>Gender: 
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+                <input type="radio" name="gender" value="other">Other</td>
+			
+		</tr>
+		<tr> 
+			<td>
+				County:
+				<select name="County">
+					<option value="Taipei">Taipei</option>
+					<option value="Tainan">Tainan</option>
+					<option value="Taichung">Taichung</option>
+					<option value="Taoyuan">Taoyuan</option>
+				</select>
+			</td>
+			<td>
+				Birthday: <input type="date" name="birthday">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2"><label for="E-mail">E-mail:</label><input id="E-mail" type="text"></td>
+		</tr>
+		<tr>
+			<td>Hobby</td>
+			<td colspan="2">
+                <input type="checkbox" name="hobby" value="swimming"><label>Swimming</label>
+                <input type="checkbox" name="hobby" value="volleyball"> <label>Volleyball</label>
+                <input type="checkbox" name="hobby" value="movie"> <label>Movie</label>
+                <input type="checkbox" name="hobby" value="game"> <label>Game</label>
+                <input type="checkbox" name="hobby" value="sleep"> <label>Sleep</label>
+            </td>
+		</tr>
+		<tr>
+			<td>Skill</td>
+			<td colspan="2">
+                <input type="checkbox" name="skill" value="java"><label> Java</label>
+                <input type="checkbox" name="skill" value="html"> <label>HTML</label>
+                <input type="checkbox" name="skill" value="python"> <label>Python</label>
+                <input type="checkbox" name="skill" value="msoffice"> <label>Microsoft Office</label>
+                <input type="checkbox" name="skill" value="premiere"><label> Premiere</label>
+            </td>
+		</tr>
+		<tr>
+  			<td>Say Something</td>
+
+  			<td colspan="2">
+    			<textarea name="saySomething" rows="4" cols="50" placeholder="Say something here."></textarea>
+  			</td>
+		</tr>
+		
+		<tr>
+            <td colspan="3">
+                <button type="submit">提交</button>
+                <button type="reset">重設</button>
+            </td>
+        </tr>
+	</div>
+	</table>
+	
+
+</body>
+</html>
